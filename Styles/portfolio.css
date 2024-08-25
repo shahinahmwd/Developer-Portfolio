@@ -1,0 +1,237 @@
+/* Common Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-right: 18px;
+    background: #FD6E0A;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+/* Nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+/* banner related styles */
+.banner{
+    display: flex;
+    padding: 30px 30px 0 150px;
+   margin: 130px 0;
+}
+.banner-container{
+    max-width: 500px;
+    padding: 130px 0;
+}
+.sub-titel{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.banner .profile-pic{
+    width: 500px;
+    margin-left: 40px;
+}
+/* header styles */
+.header{
+    background-color: #FFF8F3;
+    background: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+/* Main related styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* About section */
+.about {
+	background: #FFF8F3;
+	padding: 105px;
+	margin: 0 96px;
+	text-align: center;
+}
+/*item related styles */
+.about-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.item-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.item-info{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+/* What i do section */
+#what-description{
+	margin: 0 96px;
+    padding: 0 60px;
+}
+/* Skill related styles */
+.skill-container{
+    display: flex;
+    padding: 0 97px;
+    margin-top: 18px;
+    gap: 20px;
+}
+.skill{
+    padding: 15px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+/* Summary section styles */
+.summary-container{
+    display: flex;
+    padding: 0 97px;
+    margin-top: 18px;
+    gap: 20px;
+}
+.summary-colum{
+    padding: 50px 0;
+}
+.summary-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.summary-item{
+    padding-top: 15px;
+}
+.summary-item-dep{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.summary-item-institute{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding-top: 5px;
+}
+.summary-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+    text-align: center;
+}
+/* Footer Section */
+.footer {
+	background: #FFF8F3;
+	display: flex;
+	gap: 100px;
+	margin-top: 100px;
+	padding: 100px 94px;
+}
+.footer-colum{
+    width: 50%;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon-list a{
+    margin-right: 20px;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    margin-top:20px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 0 30px;
+}
